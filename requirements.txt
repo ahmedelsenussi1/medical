@@ -1,57 +1,7 @@
-# Flask Framework and Extensions
 Flask==2.3.3
 Flask-SQLAlchemy==3.0.5
 Flask-Login==0.6.3
 Flask-Migrate==4.0.5
-
-# Database
 SQLAlchemy==2.0.21
-
-# Security
 Werkzeug==2.3.7
-
-# Date and Time
-python-dateutil==2.8.2
-
-# Search Engine
-elasticsearch==8.9.0
-
-# Excel File Processing
-pandas==2.1.1
-openpyxl==3.1.2
-xlrd==2.0.1
-
-# PDF Generation
-reportlab==4.0.4
-
-# User Agent Parsing
-user-agents==2.2.0
-
-# UUID Generation (built-in Python module)
-# uuid - included in Python standard library
-
-# JSON Processing (built-in Python module)
-# json - included in Python standard library
-
-# Operating System Interface (built-in Python module)
-# os - included in Python standard library
-
-# Random Number Generation (built-in Python module)
-# random - included in Python standard library
-
-# Calendar Functions (built-in Python module)
-# calendar - included in Python standard library
-
-# Logging (built-in Python module)
-# logging - included in Python standard library
-
-# Development Dependencies (Optional)
-# Uncomment these for development environment
-# pytest==7.4.2
-# pytest-flask==1.2.0
-# flask-testing==0.8.1
-
-# Production Server (Optional)
-# Uncomment for production deployment
-# gunicorn==21.2.0
-# waitress==2.1.2
+gunicorn==21.2.0
